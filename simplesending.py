@@ -28,7 +28,8 @@ text = file.read()
 
 data = {
     'timestamp': timestamp(),
-    'title': "[Isaac's Harbour] PI Ping"
+    'title': "[Isaac's Harbour] PI Ping",
+    'myip': myip()
 }
 
 print(render(text, data))
